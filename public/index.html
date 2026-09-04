@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="BabyMeal propose des recettes adaptées à l'âge de votre bébé."
+    >
+
+    <title>BabyMeal - Recettes pour bébé</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <script
+        src="./assets/js/script.js" defer
+    ></script>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="index.html" class="logo-link">
+            <img
+                src="./assets/images/logo-bb.png"
+                alt="BabyMeal"
+                class="logo-image"
+            >
+            <h1 class="logo-text">
+                BabyMeal
+            </h1>
+        </a>
+
+        <nav aria-label="Navigation principale">
+
+            <ul class="nav-list">
+
+                <li>
+                    <a href="#accueil">Accueil</a>
+                </li>
+
+                <li>
+                    <a href="#recettes">Recettes</a>
+                </li>
+
+                <li>
+                    <a href="#conseils">Conseils</a>
+                </li>
+
+                <!-- <li>
+                    <a href="#apropos">À propos</a>
+                </li> -->
+                <li>
+                   <a href="favorites.html" aria-label="Favoris">
+                     <i class="fa-solid fa-heart"></i>
+                   </a>
+                </li>
+                <li>
+                    <a href="#connexion">Connexion</a>
+                </li>
+                <li>
+                    <a href="#inscription">Inscription</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero" id="accueil">
+
+            <div class="hero-content">
+
+                <p class="welcome-message">
+                    Bienvenue chez BabyMeal 
+                </p>
+
+                <h1>
+                    Trouver la recette adaptée à ton bébé
+                </h1>
+
+                <p class="hero-description">
+                    Des repas simples, sains et adaptés à chaque âge.
+                </p>
+
+                <div class="hero-filters">
+
+                    <label for="age">
+                        Âge du bébé
+                    </label>
+                    <select id="age">
+                  
+                   
+                        <option value="">
+                            Choisir un âge
+                        </option>
+
+                        <option value="4">
+                            4 mois
+                        </option>
+
+                        <option value="6">
+                            6 mois
+                        </option>
+
+                        <option value="9">
+                            9 mois
+                        </option>
+
+                        <option value="12">
+                            12 mois
+                        </option>
+
+                    </select>
+
+                    <label for="search">
+                        Rechercher           
+                    </label>
+
+                    <input
+                        type="search"
+                        id="search"
+                        placeholder="Rechercher une recette..."
+                    >
+                    <button type="button" id="search-button">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+
+                        Rechercher
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+<!-- MESSAGE POUR LES PARENTS -->
+
+<section class="parent-message">
+
+    <p class="parent-message-highlight"></p>
+
+</section>
+
+        <!-- RECETTES -->
+
+        <section class="recipes" id="recettes">
+
+            <h2>
+                Recettes populaires 
+            </h2>
+
+            <div class="recipes-container">
+
+                <article class="recipe-card">
+
+                  
+                    <img
+                        src="./assets/images/carotte.png"
+                        alt="Purée de carotte"
+                    >
+                    <div class="recipe-content">
+
+                        <span class="recipe-age">
+                            Dès 4 mois
+                        </span>
+
+                        <h3>
+                            <h3>
+                               <i class="fa-solid fa-carrot recipe-icon"></i>
+                            Purée de carotte
+                        </h3>
+
+                        <p>
+                            Une purée riche en bêta-carotène,
+                            parfaite pour commencer la diversification.
+                        </p>
+
+                        <button type="button">
+                            Voir la recette
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="recipe-card">
+
+                    <img
+                        src="./assets/images/dompote-pomme.png"
+                        alt="Purée de pomme"
+                    >
+
+                    <div class="recipe-content">
+
+                        <span class="recipe-age">
+                            Dès 4 mois
+                        </span>
+                        <h3>
+                            <i class="fa-solid fa-apple-whole recipe-icon"></i>
+                            Purée de pomme
+                        </h3>
+
+                        <p>
+                            Une purée douce et fruitée,
+                            idéale pour bébé.
+                        </p>
+
+                        <button type="button">
+                            Voir la recette
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="recipe-card">
+
+                    <img
+                        src="./assets/images/Purée-patate-douce.png"
+                        alt="Purée de patate douce"
+                    >
+
+                    <div class="recipe-content">
+
+                        <span class="recipe-age">
+                            Dès 4 mois
+                        </span>
+
+                        <h3>
+                         <span class="sweet-potato-icon">🍠</span>
+                            Purée de patate douce
+                        </h3>
+
+                        <p>
+                            Une purée douce et naturellement sucrée.
+                        </p>
+
+                        <button type="button">
+                            Voir la recette
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONSEILS -->
+
+        <section class="tips" id="conseils">
+
+            <h2>
+                Conseils pour les parents 💚
+            </h2>
+
+            <div class="tips-container">
+
+                <article class="tip-card">
+                    <h3>Diversification alimentaire</h3>
+                    <p>
+                        Découvrez les grandes étapes de la diversification.
+                    </p>
+                </article>
+
+                <article class="tip-card">
+                    <h3>Les textures</h3>
+                    <p>
+                        Adaptez progressivement les textures à l'âge de bébé.
+                    </p>
+                </article>
+
+                <article class="tip-card">
+                    <h3>Les allergènes</h3>
+                    <p>
+                        Retrouvez des informations pour introduire
+                        les aliments progressivement.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            © 2026 BabyMeal - Projet DWWM
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

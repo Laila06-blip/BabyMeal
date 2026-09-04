@@ -1,0 +1,5 @@
+ /*pour selection tt les elements HTML */ 
+* {
+ margin: 0; /* enlever les espaces automatiques*/ 
+ padding: 0; /* enlever les espaces interieurs */ 
+    box-sizing: border-box; }

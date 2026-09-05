@@ -66,7 +66,7 @@ const Recipe = sequelize.define(
         tableName: "recipes",
 
         //creadAt et updateAt auto par sequelize
-        timestamps: true
+        timestamps: false,
     }
 );
 

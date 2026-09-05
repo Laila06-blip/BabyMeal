@@ -46,7 +46,7 @@ const User = sequelize.define(
         tableName: "users",
     
     // sequlize ajoute auto : createdAt (date de creation du compte ) et updatedAt( date de derniere modification ) pour chaque user
-      timestamps: true
+      timestamps: false,
     }
 );
 

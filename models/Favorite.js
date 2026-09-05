@@ -35,7 +35,7 @@ const Favorite = sequelize.define(
         // nom de la table dans la base de données(postgre)
         tableName: "favorites",
         // sequlize ajoute auto : createdAt (date de creation du compte ) et updatedAt( date de derniere modification ) pour chaque user
-        timestamps: true
+        timestamps: false,
     }
 );
 
